@@ -57,8 +57,8 @@ class DAPS():
     from DAPS import DAPS
 
     #load data
-    data_train = pd.read_csv('Synthetic_ratio30_noise4_train.csv')
-    data_test = pd.read_csv('Synthetic_ratio30_noise4_test.csv')
+    data_train = pd.read_csv('Synthetic_ratio30_sig4_train.csv')
+    data_test = pd.read_csv('Synthetic_ratio30_sig4_test.csv')
     y_test = data_test.label.values
     X_test = data_test.drop(['label'], axis=1).values
     y_train = data_train.label.values
