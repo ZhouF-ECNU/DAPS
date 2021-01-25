@@ -142,7 +142,7 @@ class DAPS():
                 c[i] = -((1 - pred[i]) ** gamma) * (np.log(pred[i]))
         return c.flatten()
 
-    def spe_our(self,X_maj, X_min, X_vetoed_maj, X_vetoed_min, i_estimator):
+    def dynamic_self_paced_sampling(self,X_maj, X_min, X_vetoed_maj, X_vetoed_min, i_estimator):
         """Private function used to perform dynamic self-paced sampling."""
         """compute hardness"""
         hardness_neg = self.predict_proba(X_maj)[:, 1]
@@ -378,7 +378,7 @@ class DAPS():
 
         # Loop start
         for i_estimator in range(1, self._n_estimators):
-            X_train, y_train, sample_weight = self.spe_our(
+            X_train, y_train, sample_weight = self.dynamic_self_paced_sampling(
                 X_maj, X_min, X_vetoed_maj, X_vetoed_min, i_estimator, )
             self.estimators_.append(
                 self._fit_base_estimator(
