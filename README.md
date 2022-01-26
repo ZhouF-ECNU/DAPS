@@ -1,6 +1,6 @@
 # DAPS
 ## Synthetic data
-Synthetic data is divided into training set and independent test set. The number following "ratio" represents the imbalance ratio and the number following "sig" represents σ<sup>2</sup><sub>p</sub>.
+Synthetic data is divided into training set and independent test set. The number following "ratio" represents the imbalance ratio and the number following "sig" represents σ<sup>2</sup><sub>p</sub> , which control the degree of class overlap. 
 
 ## Run
 Example:
@@ -33,3 +33,4 @@ Example:
     ```
 
 ## Paper information
+Zhou F., Gao S.T., Ni L. Pavlovski M.,  Dong Q., Obradovic Z., Qian W., "Dynamic Self-paced Sampling Ensemble for Highly Imbalanced and Class-overlapped Data Classification"., International Conference on Data Mining and Knowledge Discovery (DMKD-2022) , May, 2022.
