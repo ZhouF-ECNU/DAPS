@@ -33,4 +33,4 @@ Example:
     ```
 
 ## Paper information
-Zhou F., Gao S.T., Ni L. Pavlovski M.,  Dong Q., Obradovic Z., Qian W., "Dynamic Self-paced Sampling Ensemble for Highly Imbalanced and Class-overlapped Data Classification"., International Conference on Data Mining and Knowledge Discovery (DMKD-2022) , May, 2022.
+Zhou F., Gao S.T., Ni L. Pavlovski M.,  Dong Q., Obradovic Z., Qian W., "Dynamic Self-paced Sampling Ensemble for Highly Imbalanced and Class-overlapped Data Classification"., Data Mining and Knowledge Discovery (DMKD-2022) , May, 2022.
